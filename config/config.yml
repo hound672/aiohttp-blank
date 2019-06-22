@@ -1,0 +1,15 @@
+debug: false
+port: 5555
+swagger: true
+logging: settings.logging.files.LOGGING
+
+database:
+  database: SECRET
+  user: SECRET
+  password: SECRET
+  host: db
+  port: 5432
+
+authorized:
+  public_key: apps/authenticate/tests/keys/testkey.pub
+  jwt_header_prefix: jwt

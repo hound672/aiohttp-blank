@@ -1,0 +1,15 @@
+debug: true
+port: 8888
+swagger: true
+
+database:
+  database: SECRET
+  user: SECRET
+  password: SECRET
+  host: db
+  port: 5432
+
+authorized:
+  public_key: apps/authenticate/tests/keys/testkey.pub
+  jwt_header_prefix: jwt
+
